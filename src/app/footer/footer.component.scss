@@ -1,0 +1,18 @@
+
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    z-index: 2;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    }
+    footer p{
+    margin-right: 75%;
+}
+footer a{
+    margin-left: 10px;
+}
