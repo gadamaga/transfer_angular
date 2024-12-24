@@ -1,15 +1,13 @@
-
-
 footer {
     width: 100%;
     background-color: black;
-    color: white;
-    z-index: 2;
-    position: relative;
+   color: white;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    }
+    position: absolute;
+    bottom: 0;
+}
     footer p{
     margin-right: 75%;
 }
