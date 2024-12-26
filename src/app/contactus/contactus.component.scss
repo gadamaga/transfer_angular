@@ -1,11 +1,19 @@
+.contactus-container {
+    display: flex; /* Flexbox'ı etkinleştir */
+    flex-wrap: wrap; /* Ekran küçülünce alt alta geçsin */
+      align-items: flex-start; /* Dikey hizalamayı üstte başlatır */
+      width: 100%; /* Genişlik 100% olsun */
+  }
+  
 .contactus {
+    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 100%;
-    height: 100vh;
+    width: 60%;
+    height: auto;
     margin: 0;
-    padding: 0;
+    padding-left: 5%;
 }
 
 .contactus h1 {
@@ -20,7 +28,7 @@
 
 .contactus input {
     margin-bottom: 10px;
-    width: 25%;
+    width: 45%;
     height: 40px;
     font-size: 18px;
     padding: 5px;
@@ -56,20 +64,42 @@
 }
 
 .sitegmail {
-    width: 30%;
-    height: 50%;
+    width: 90%;
+    height: auto;
     background-color: #825151;
-}
+    margin-top: 20%;
+    h1{
+        color: black;
+        font-size: 40px;
+        font-weight: bold;
+        margin-left: 10%;
+    }
+    p{
+        color: black;
+        font-size: 20px;
+        margin-left: 10%;}
+    }
 
 .social-box {
-   width: 20%;
-    height: 100vh;
+    position: relative;
+    right: 10%;
+    bottom: 10%;
+   width: 10%;
+    height: 6%;
+    margin-left: 10%;
     background-color: aqua;
-    margin-left: auto;
+    padding: 0;
+    margin-top: 0;
+ 
 }
 
 .social-box2 {
-    width: 4%;
+    width: 15%;
     height: 6%;
     background-color: aqua;
+}
+.left-box{
+    
+    width: 30%;
+    height: auto;
 }

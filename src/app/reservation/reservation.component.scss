@@ -1,9 +1,21 @@
+mainimg {
+    background-image: url(../../public/mainimg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    z-index: 1000;
+}
+
 #rezervasyon {
     height: 30%;
     width: 100%;
     background-color: rgba(248, 248, 248, 0.5);
     backdrop-filter: blur(5px);
-   
+    position: relative;
+    bottom: 0;
+    left: 0;
 }
 
 .car-text {
@@ -59,6 +71,9 @@
 
 #maps {
     background-color: #0c59a0;
+    position: relative;
+    top: 30%;
+    left: 25%;
     color: white;
     height: 60px;
     width: 70%;
@@ -73,6 +88,9 @@
 
 #search {
     background-color: #0c59a0;
+    position: relative;
+    top: 30%;
+    left: 25%;
     color: white;
     height: 60px;
     width: 70%;
