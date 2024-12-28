@@ -1,0 +1,19 @@
+- angular v19 project taze doredilende 'src' folder bilen 'public' folder-in duryan levelleri den bolyan eken, yone seninkide 'public' folder name ucindir 'src' folderin icinde, yalnyslyk bilen geciren bolaymasan, dasyna cykardym. onson link bereninde 'public/resim.jpg' diymek yerine, goni public-in icinden baslamaly eken, meselem 'resim.jpg'.
+
+- #mainimg {
+    background-image: url(/mainimg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    z-index: 1000;
+}
+
+yokarkynyn css-ini yazanda 'mainimg' diyip yazypsyn, ol id bolany ucin '#mainimg' diyip yazylmaly. birem css berjek zatlaryna id dal-de class berip bilersin, sonra bulasdyrmaz yaly, bolmasa haysy 'id' haysy 'class' diyip oturarsyn. hemmesine 'class' diyen bolsan '.mainimg' diymeli bolardyn.
+
+
+- https://alanyatransfer.com
+sul yokarky site-a seret, gaty gowja bolupdyr, 'header/navbar'yn yokarsynda-da iletisim bilgilerini goyupdyrlar, senem gosay sonun yaly birzat.
+
+- meselem sul gaty biderek bolupdyr: https://www.antalyatransferclub.com reservation edilyan yerleri zady gaty biderek
