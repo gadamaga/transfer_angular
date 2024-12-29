@@ -1,8 +1,9 @@
 .contactus-container {
-    display: flex; /* Flexbox'ı etkinleştir */
-    flex-wrap: wrap; /* Ekran küçülünce alt alta geçsin */
-      align-items: flex-start; /* Dikey hizalamayı üstte başlatır */
-      width: 100%; /* Genişlik 100% olsun */
+    display: flex; 
+    flex-wrap: wrap; 
+      align-items: flex-start; 
+      width: 100%; 
+      margin: 5% 0%;
   }
   
 .contactus {

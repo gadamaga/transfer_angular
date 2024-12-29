@@ -5,7 +5,11 @@
     width: 100%;
     height: 100vh;
     margin: 0;
-    z-index: 1000;
+    z-index: 100;
+    position: relative;
+    top: 10%;
+    left: 0;
+   
 }
 
 #rezervasyon {
@@ -14,8 +18,9 @@
     background-color: rgba(248, 248, 248, 0.5);
     backdrop-filter: blur(5px);
     position: relative;
-    bottom: 0;
-    left: 0;
+    top: 70%;
+     left: 0;
+     z-index: 1;
 }
 
 .car-text {

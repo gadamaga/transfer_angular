@@ -1,0 +1,49 @@
+.contact-info {
+    width: 98,5%;
+    height: 20%;
+    background-color: rgb(241, 186, 85);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    animation: fadeIn 1s ease-in-out; 
+    margin: 0;
+}
+.contact-info .left {
+    display: flex;
+    flex-direction: row;
+    gap: 30px; 
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.left, .right {
+    flex: 1;
+}
+
+.left p, .right p {
+    margin: 0;
+}
+.right p a {
+text-decoration: none;
+color: black;
+
+}
+.right p a:hover {
+    text-decoration: underline; 
+    
+}
